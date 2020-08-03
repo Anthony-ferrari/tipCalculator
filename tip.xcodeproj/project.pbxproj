@@ -15,6 +15,7 @@
 		82A1376524D77AC500701919 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82A1376324D77AC500701919 /* LaunchScreen.storyboard */; };
 		82A1377024D77AC600701919 /* tipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A1376F24D77AC600701919 /* tipTests.swift */; };
 		82A1377B24D77AC600701919 /* tipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A1377A24D77AC600701919 /* tipUITests.swift */; };
+		82A1378D24D7966500701919 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A1378C24D7966500701919 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		82A1377624D77AC600701919 /* tipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82A1377A24D77AC600701919 /* tipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipUITests.swift; sourceTree = "<group>"; };
 		82A1377C24D77AC600701919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82A1378C24D7966500701919 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		82A1374C24D77AC300701919 = {
 			isa = PBXGroup;
 			children = (
+				82A1378C24D7966500701919 /* SettingsViewController.swift */,
 				82A1375724D77AC300701919 /* tip */,
 				82A1376E24D77AC600701919 /* tipTests */,
 				82A1377924D77AC600701919 /* tipUITests */,
@@ -262,6 +265,7 @@
 				82A1375D24D77AC300701919 /* ViewController.swift in Sources */,
 				82A1375924D77AC300701919 /* AppDelegate.swift in Sources */,
 				82A1375B24D77AC300701919 /* SceneDelegate.swift in Sources */,
+				82A1378D24D7966500701919 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
